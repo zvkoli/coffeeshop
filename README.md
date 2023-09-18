@@ -1,8 +1,8 @@
 # Coffee Shop
 
 ## Project Dependencies
-### v 1.0 :
 
+### v 1.0 :
 - **React**
 - **React router**
 - **Recoil**
@@ -13,7 +13,10 @@
 - **React spring**
 - **React Aria iffcanvas**
 
-### v 2.0 :
+### Added in v 2.0 :
+
+- **useSWR**
+- **Lazy Loading & Suspense**
 
 ### ![Demo Videos](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
 

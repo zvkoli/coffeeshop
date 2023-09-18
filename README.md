@@ -1,6 +1,7 @@
 # Coffee Shop
 
 ## Project Dependencies
+### v 1.0
 
 - **React**
 - **React router**

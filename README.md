@@ -1,4 +1,4 @@
-<>Coffee Shop</>
+<p>Coffee Shop</p>
 
 ## Project Dependencies
 

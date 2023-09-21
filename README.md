@@ -1,9 +1,9 @@
 # Coffee Shop
-<p>Coffee Shop</p>
 
 ## Project Dependencies
 
-### v 1.0 :
+#### v 1.0 :
+
 - **React**
 - **React router**
 - **Recoil**
@@ -14,7 +14,7 @@
 - **React spring**
 - **React Aria iffcanvas**
 
-### Added in v 2.0 :
+#### Added in v 2.0 :
 
 - **useSWR**
 - **Lazy Loading - Suspense**

@@ -1,5 +1,5 @@
-<h4>Coffee Shop</h4>
-
+<p>Coffee Shop</p>
+----
 <p>Project Dependencies</p>
 
 <p>v 1.0 :</p>

@@ -1,6 +1,8 @@
 <p>Coffee Shop</p>
 
-## Project Dependencies
+<p>
+  Project Dependencies
+</p>
 
 #### v 1.0 :
 

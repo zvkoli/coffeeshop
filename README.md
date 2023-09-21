@@ -1,4 +1,4 @@
-<p>Coffee Shop</p>
+_Coffee Shop_
 
 ---
 

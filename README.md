@@ -6,15 +6,15 @@
 
 _v 1.0 :_
 
-_React_
-_React router_
-_Recoil_
-_Tailwind_
-_MUI_
+- _React_
+- _React router_
+- _Recoil_
+- _Tailwind_
+- _MUI_
 - _React icons_
-_Swetalert 2_
-_React spring_
-_React Aria iffcanva_
+- _Swetalert 2_
+- _React spring_
+- _React Aria iffcanva_
 
 _Added in v 2.0 :_
 

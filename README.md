@@ -7,16 +7,15 @@
 #### v 1.0 :
 <ul>
   <li>React</li>
+  <li>React router</li>
+  <li>Recoil</li>
+  <li>Tailwind</li>
+  <li>MUI</li>
+  <li>React icons</li>
+  <li>Swetalert 2</li>
+  <li>React spring</li>
+  <li>React Aria iffcanva</li>
 </ul>
-- **React**
-- **React router**
-- **Recoil**
-- **Tailwind**
-- **MUI**
-- **React icons**
-- **Swetalert 2**
-- **React spring**
-- **React Aria iffcanvas**
 
 #### Added in v 2.0 :
 

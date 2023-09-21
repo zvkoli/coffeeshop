@@ -1,4 +1,4 @@
-<p>Coffee Shop</p>
+<h4>Coffee Shop</h4>
 
 <p>Project Dependencies</p>
 

@@ -1,4 +1,5 @@
 # Coffee Shop
+<span style="font-family: 'Open Sans', sans-serif;"># Coffee Shop</span>
 
 ## Project Dependencies
 
@@ -17,8 +18,6 @@
 
 - **useSWR**
 - **Lazy Loading - Suspense**
-
-![Demo Videos](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
 
 <a href={https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7}></a>
 

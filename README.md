@@ -1,4 +1,4 @@
-Coffee Shop
+<>Coffee Shop</>
 
 ## Project Dependencies
 

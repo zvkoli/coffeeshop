@@ -1,5 +1,5 @@
 # Coffee Shop
-<h1>Coffee Shop</h1>
+<p>Coffee Shop</p>
 
 ## Project Dependencies
 

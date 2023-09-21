@@ -5,7 +5,9 @@
 </p>
 
 #### v 1.0 :
-
+<ul>
+  <li>React</li>
+</ul>
 - **React**
 - **React router**
 - **Recoil**

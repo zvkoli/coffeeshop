@@ -23,7 +23,7 @@ _Added in v 2.0 :_
 
 ---
 
-[![Watch the video]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
+[![Video demo ]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
 
 ---
 

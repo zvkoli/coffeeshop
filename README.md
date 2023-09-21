@@ -16,9 +16,9 @@
 ### Added in v 2.0 :
 
 - **useSWR**
-- **Lazy Loading & Suspense**
+- **Lazy Loading - Suspense**
 
-### ![Demo Videos](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
+![Demo Videos](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
 
 ## Preview
 

@@ -1,5 +1,5 @@
 # Coffee Shop
-<span style="font-family: 'Open Sans', sans-serif;"># Coffee Shop</span>
+<h1>Coffee Shop</h1>
 
 ## Project Dependencies
 

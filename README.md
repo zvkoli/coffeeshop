@@ -1,10 +1,8 @@
 <p>Coffee Shop</p>
 
-<p>
-  Project Dependencies
-</p>
+<p>Project Dependencies</p>
 
-#### v 1.0 :
+<p>v 1.0 :</p>
 <ul>
   <li>React</li>
   <li>React router</li>

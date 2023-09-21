@@ -2,22 +2,21 @@
 
 ---
 
-<p>Project Dependencies</p>
+**_Project Dependencies_**
 
-<p>v 1.0 :</p>
-<ul>
-  <li>React</li>
-  <li>React router</li>
-  <li>Recoil</li>
-  <li>Tailwind</li>
-  <li>MUI</li>
-  <li>React icons</li>
-  <li>Swetalert 2</li>
-  <li>React spring</li>
-  <li>React Aria iffcanva</li>
-</ul>
+_v 1.0 :_
 
-#### Added in v 2.0 :
+_React_
+_React router_
+_Recoil_
+_Tailwind_
+_MUI_
+- _React icons_
+_Swetalert 2_
+_React spring_
+_React Aria iffcanva_
+
+_Added in v 2.0 :_
 
 - **useSWR**
 - **Lazy Loading - Suspense**

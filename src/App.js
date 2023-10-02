@@ -24,7 +24,7 @@ const App = () => {
       try {
         const res = await fetch(url);
         const apiData = await res.json();
-        console.log(apiData);
+
         setData(apiData.menu);
         setLoading(false);
       } catch (err) {

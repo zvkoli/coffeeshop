@@ -27,12 +27,6 @@ _Added in v 2.0 :_
 [![Video demo ]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
 
 ---
----
-_Using react-animated-burgers in version 2.0_
-
-[![Video demo ]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/bd443f23-ecff-4479-9a7d-e5e9e06b6070)
-
----
 
 **_Preview_**
 

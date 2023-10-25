@@ -22,6 +22,10 @@ _Added in v 2.0 :_
 - _Lazy Loading - Suspense_
 - _React Redux_
 
+**_Changes in Version 2.0_**
+
+_Removal of React Aria and IfcCanvas, and use of Drawer - MUI_
+
 ---
 
 [![Video demo ]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)

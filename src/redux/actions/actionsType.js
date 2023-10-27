@@ -1,0 +1,6 @@
+export const SET_DATA = 'SET_DATA';
+export const SET_CART = 'SET_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+export const SET_ORDERS_LIST = 'SET_ORDERS_LIST';
+export const ADD_TO_ORDER_LIST = 'ADD_TO_ORDER_LIST';
+export const REMOVE_FROM_ORDER_LIST = 'REMOVE_FROM_ORDER_LIST';

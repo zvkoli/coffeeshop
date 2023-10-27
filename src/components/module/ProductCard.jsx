@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
 import DefaultPic from '../../assets/default-image.webp';
 import { HiPlusSm , HiMinusSm } from "react-icons/hi";
-import { addToOrderList } from '../../redux/actions/addToOrderList';
-import { removeFromOrderList } from '../../redux/actions/removeFromOrderList';
+import { addToOrderList } from '../../redux/actions/addToOrderListAction';
+import { removeFromOrderList } from '../../redux/actions/removeFromOrderListAction';
 
 const ProductCard = ({ name , price , id }) => {
 

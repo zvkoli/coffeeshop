@@ -22,9 +22,9 @@ _v 1.0 :_
 - _Lazy Loading - Suspense_
 - _React Redux_
 
-**_Changes in Version 2.0_ :**
+**_Changes in v 2.0_ :**
 
-_Removal of React Aria IfcCanvas, and use of Drawer - MUI_
+_Removal of **React Aria IfcCanvas**, and use of **Drawer - MUI**_
 
 ---
 

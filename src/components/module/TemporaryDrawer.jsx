@@ -1,82 +1,32 @@
-import { useEffect } from "react";
-import Drawer from '@mui/material/Drawer';
-import Box from '@mui/material/Box';
-import { Link } from 'react-router-dom';
-import AboutMessage from './AboutMessage';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import TemporaryDrawer from "./TemporaryDrawer";
+import CartBtn from "./CartBtn";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-const TemporaryDrawer = ({ isOpen, onClose }) => {
-  
-  useEffect(() => {
-    const handleOutsideClick = (event) => {
-      if (isOpen && event.target.closest('.MuiDrawer-root') === null) {
-        onClose();
-      }
-    };
-
-    if (isOpen) {
-      document.addEventListener("mousedown", handleOutsideClick);
-    } else {
-      document.removeEventListener("mousedown", handleOutsideClick);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
-    };
-  }, [isOpen, onClose]);
+const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Drawer
-      anchor="left"
-      open={isOpen}
-      onClose={onClose}
-      ModalProps={{
-        disablePortal: true,
-        container: () => document.body,
-        style: { position: 'absolute' },
-      }}
-    >
-      <Box
-        sx={{ width: 300 }}
-        role="presentation"
-        className="w-full h-full flex flex-col justify-start items-start gap-5 font-Urbanist text-slate-200 p-2"
+    <header className="h-20 w-full flex flex-row justify-between items-center absolute top-0  shadow font-Urbanist uppercase px-14 bg-white text-black/80">
+      <Link
+        to={"/"}
+        className="h-full flex flex-row justify-start items-center font-bold text-3xl hover:text-orange-400"
       >
-        <h1 className='text-orange-400 text-[1.5rem] font-extrabold cursor-default'>
-          Brew Haven
-        </h1>
-        <div className='flex flex-col justify-center items-start gap-2 font-thin text-black uppercase'>
-          <Link
-            to={'/'}
-            onClick={() => onClose()} 
-            className='flex flex-row justify-center items-center gap-1 text-[0.90rem] tracking-widest hover:text-orange-400'>
-            Home
-          </Link>
-          <Link
-            to={'/menu'}
-            onClick={() => onClose()} 
-            className='flex flex-row justify-center items-center gap-1 text-[0.90rem] tracking-widest hover:text-orange-400'>
-            Menu
-          </Link>
-          <button
-            onClick={() => {
-              onClose();
-              AboutMessage();
-            }}
-            className='flex flex-row justify-center items-center gap-1 text-[0.90rem] uppercase tracking-widest hover:text-orange-400'>
-            About
-          </button>
-          <button
-            onClick={() => {
-              onClose();
-              AboutMessage();
-            }}
-            className='flex flex-row justify-center items-center gap-1 text-[0.90rem] uppercase tracking-widest hover:text-orange-400'>
-            Contact
-          </button>
-        </div>
-      </Box>
-    </Drawer>
+        Brew Haven
+      </Link>
+      <div className="h-full w-1/2 flex flex-row justify-end items-center gap-4">
+        <CartBtn />
+        <button
+          className="text-[2.5rem] text-orange-400"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <GiHamburgerMenu />
+        </button>
+        <TemporaryDrawer isOpen={isOpen} onClose={() => setIsOpen(false)} />
+      </div>
+    </header>
   );
 };
 
-export default TemporaryDrawer;
-
+export default Header;

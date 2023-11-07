@@ -4,7 +4,7 @@
 
 **_Project Dependencies_**
 
-_v 1.0 :_
+**_in v 1.0 :_**
 
 - _React_
 - _React router_

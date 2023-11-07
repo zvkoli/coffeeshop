@@ -26,6 +26,10 @@ _v 1.0 :_
 
 _Removal of **React Aria IfcCanvas**, and use of **Drawer - MUI**_
 
+**_Added in v 3.0 :_**
+
+- _React toolkit_
+
 ---
 
 [![Video demo ]](https://github.com/immohammadrezatavakkoli/coffeeshop/assets/100797809/487d078b-175f-4ce1-bfde-ec090de69ea7)
